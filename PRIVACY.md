@@ -26,7 +26,7 @@
 
 ## 停止與刪除
 
-- 在 App 的「Google 雲端硬碟同步」頁按「停止同步」，或到 [Google 帳戶的第三方存取權](https://myaccount.google.com/connections) 移除小金庫，就能撤銷存取。
+- 在 App 的「Google 雲端硬碟同步」頁按「停止同步」，那台裝置就不再同步。要讓小金庫完全不能存取，請到 [Google 帳戶的第三方存取權](https://myaccount.google.com/connections) 移除小金庫。
 - 刪除雲端硬碟裡的同步資料：到 Google 雲端硬碟 → 設定 → 管理應用程式 → 小金庫 → 刪除隱藏的應用程式資料。
 - 刪除裝置上的資料：解除安裝 App。
 
