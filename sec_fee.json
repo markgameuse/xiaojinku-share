@@ -1,0 +1,10 @@
+{
+  "note": "SEC Section 31 fee on US stock sales, in US dollars per million dollars sold, from the trade date each rate took effect. Source: https://www.sec.gov/rules-regulations/fee-rate-advisories",
+  "updated": "2026-11-13",
+  "rates": [
+    {"from": "2023-02-27", "perMillion": 8.00},
+    {"from": "2024-05-22", "perMillion": 27.80},
+    {"from": "2025-05-14", "perMillion": 0.00},
+    {"from": "2026-04-04", "perMillion": 20.60}
+  ]
+}
