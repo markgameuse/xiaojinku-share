@@ -1,6 +1,6 @@
 # 小金庫 隱私權說明
 
-最後更新：2026-11-15
+最後更新：2026-11-16
 
 小金庫是記帳 App。除了下面說的「開發者的 Supabase」，開發者收不到、也看不到你的資料。
 
@@ -21,7 +21,7 @@
 - **GitHub**（api.github.com、raw.githubusercontent.com）：檢查有沒有新版本，以及每天下載一次這個 repo 裡的 `sec_fee.json`（美股賣出的 SEC 規費費率）。只是下載公開檔案，不含你的資料。
 - **股價與匯率**（臺灣證券交易所、證券櫃檯買賣中心、Yahoo Finance）：只送出股票代號，取得報價。
 - **假日**（臺灣證券交易所 openapi.twse.com.tw、政府資料開放平臺 data.gov.tw、行政院人事行政總處 www.dgpa.gov.tw）：下載股市休市日和政府行政機關辦公日曆表，用來在日曆標出國定假日、決定交割日。只是下載公開資料，不含你的資料。
-- **選股**（臺灣證券交易所 www.twse.com.tw、證券櫃檯買賣中心 www.tpex.org.tw、Yahoo Finance、GitHub raw.githubusercontent.com）：只在你於股票分頁的「選股」按下「開始建立資料」之後，下載台股全市場的每日行情和三大法人買賣超、S&P 500 成分股的日線，以及 GitHub 上公開的 S&P 500 成分股清單（datasets/s-and-p-500-companies）。資料只存在你的裝置、用來在裝置上計算推薦和勝率，不會上傳；這些請求只是下載公開資料，不含你的資料。
+- **選股**（臺灣證券交易所 www.twse.com.tw、證券櫃檯買賣中心 www.tpex.org.tw、公開資訊觀測站 mopsov.twse.com.tw、Yahoo Finance、GitHub raw.githubusercontent.com）：只在你於股票分頁的「選股」按下「開始建立資料」之後，下載台股全市場的每日行情、三大法人買賣超、融資融券、本益比和每月營收、S&P 500 成分股的日線，以及 GitHub 上公開的 S&P 500 成分股清單（datasets/s-and-p-500-companies）。資料只存在你的裝置、用來在裝置上計算推薦和勝率，不會上傳；這些請求只是下載公開資料，不含你的資料。
 
 ## 在裝置上處理、不會上傳的資料
 
